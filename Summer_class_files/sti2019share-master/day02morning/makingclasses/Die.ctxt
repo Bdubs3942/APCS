@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Die
+comment1.params=
+comment1.target=Die()
+comment2.params=newSides
+comment2.target=Die(int)
+comment3.params=
+comment3.target=int\ getNumDice()
+comment4.params=newTop
+comment4.target=void\ setTop(int)
+comment5.params=
+comment5.target=int\ onTop()
+comment6.params=
+comment6.target=void\ roll()
+numComments=7
