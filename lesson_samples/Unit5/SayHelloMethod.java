@@ -2,15 +2,9 @@ public class SayHelloMethod
 {
     public static void main (String[] args)
     {
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
-        hello("Moto");
+        // hello("Hulk");
+        // hello("Bender");
+        hello("Hank Venture");
     }
 
     public static void hello(String x)

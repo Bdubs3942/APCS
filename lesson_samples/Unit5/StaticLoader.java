@@ -9,5 +9,11 @@ public class StaticLoader
         System.out.println(sve1.getX());
         System.out.println(sve2.getX());
         System.out.println(sve3.getX());
+
+        sve2.setX("This is Two");
+
+        System.out.println(sve1.getX());
+        System.out.println(sve2.getX());
+        System.out.println(sve3.getX());
     }
 }

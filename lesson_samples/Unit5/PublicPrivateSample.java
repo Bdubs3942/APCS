@@ -23,6 +23,7 @@ public class PublicPrivateSample
         System.out.println(nowYouSeeMe);
         System.out.println(nowYouDont);
         System.out.println(Peeka);
+        Boo = "Foo foo foo";
         System.out.println(Boo);
     }
 }

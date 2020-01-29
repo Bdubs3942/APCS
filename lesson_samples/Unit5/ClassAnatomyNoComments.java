@@ -2,8 +2,9 @@ public class ClassAnatomyNoComments {
 
     String classVariableString;
     int classVariableInt;
+    String x="Foo";
 
-    public ClassAnatomy(String initClassVariableString, int initClassVariableInt)
+    public ClassAnatomyNoComments(String initClassVariableString, int initClassVariableInt)
     {
         classVariableString = initClassVariableString;
         classVariableInt = initClassVariableInt;
@@ -11,10 +12,11 @@ public class ClassAnatomyNoComments {
 
     public static void main(String[] args)
     {
-
-        ClassAnatomy ca = new ClassAnatomy("This is a string.", 42);
+        ClassAnatomyNoComments ca = new ClassAnatomyNoComments("This is a string.", 42);
 
         ca.printClassVariables();
+        
+        System.out.println(ca.x);
     }
 
     public void printClassVariables()

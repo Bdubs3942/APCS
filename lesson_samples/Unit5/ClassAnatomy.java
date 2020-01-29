@@ -17,6 +17,7 @@ public class ClassAnatomy {
     {
         classVariableString = initClassVariableString;
         classVariableInt = initClassVariableInt;
+        System.out.println("I have made a new Class Anatomy!");
     }
 
     //Here's main method. Technically, you can declare it anywhere. I like to put it between the
@@ -31,10 +32,12 @@ public class ClassAnatomy {
         //instance of the object (yes, the object you're using) to access that method.
 
         ClassAnatomy ca = new ClassAnatomy("This is a string.", 42);
+        ClassAnatomy caTwo = new ClassAnatomy("This is a integer.", 38);
 
         //Note, we are calling the method from the instance of the object we used above.
 
         ca.printClassVariables();
+        caTwo.printClassVariables();
     }
 
     //This method belongs to this class. As you can see, it's not static, so it's
