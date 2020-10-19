@@ -1,2 +1,0 @@
-    yertle.turnRight();
-    yertle.forward();
